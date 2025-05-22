@@ -1,12 +1,18 @@
-# React + Vite
+# 🎬 MovieVerse - React Movie App with TMDb API
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+MovieVerse is a responsive movie browsing app built using **React** and styled with **Tailwind CSS**. It integrates with **The Movie Database (TMDb) API** to fetch real-time popular movie data. Users can search movies, paginate through lists, and maintain a personal watchlist.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🔍 **Search** movies by title
+- 📄 **Pagination** to browse through multiple pages of popular movies
+- ❤️ **Watchlist** functionality to add or remove favorite movies
+- ⚛️ Built with **React Hooks** (`useState`, `useEffect`, `useContext`)
+- 🌐 Data fetched live from [TMDb API](https://www.themoviedb.org/)
+- 🎨 Beautiful and responsive UI with **Tailwind CSS**
 
-## Expanding the ESLint configuration
+## 🧰 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend**: React, JSX, Tailwind CSS
+- **State Management**: useState, useEffect, useContext
+- **API**: TMDb (The Movie Database)
